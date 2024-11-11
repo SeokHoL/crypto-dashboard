@@ -1,0 +1,9 @@
+services:
+  crypto-dashboard-frontend:
+    image: devjayce/crypto-dashboard-frontend
+  crypto-dashboard:
+    image: crypto-dashboard:v1
+  price-monitor:
+    image: price-monitor:v1
+  currency-monitor:
+    image: currency-monitor:v1
